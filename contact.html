@@ -102,16 +102,20 @@
         </div>
 
         <div class = "contact-form">
-          <form>
+          <form   action="https://formspree.io/f/meqnnvrj"
+          method="POST">
             <div>
               <input type = "text" class = "form-control" placeholder="First Name">
               <input type = "text" class = "form-control" placeholder="Last Name">
             </div>
             <div>
-              <input type = "email" class = "form-control" placeholder="E-mail">
+              <input class = "form-control"  placeholder="email"  type="email" name="email">
+
               <input type = "text" class = "form-control" placeholder="Phone">
             </div>
-            <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
+            <textarea rows = "5" placeholder="Your message"  name="message" class = "form-control"></textarea>
+
+           
             <input type = "submit" class = "send-btn" value = "send message">
           </form>
 
